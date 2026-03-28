@@ -1,0 +1,47 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+.d-pad {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    gap: 8px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.d-pad button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    background: #1f1f1f;
+    border: 2px solid #444;
+    color: white;
+    border-radius: 12px;
+}
+
+.d-pad .ok {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.mirror-card {
+    transition: all 0.3s;
+}
+
+.mirror-card:hover {
+    transform: scale(1.03);
+}
+
+.btn {
+    border-radius: 12px;
+}
